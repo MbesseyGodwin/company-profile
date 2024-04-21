@@ -13,30 +13,37 @@
 
     <!-- Font Awesome CSS CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-    <script src="./javascript/tailwind.js"></script>
+    <script src="../javascript/tailwind.js"></script>
 
     <!-- Local Style -->
     <link rel="stylesheet" href="../style/style.css" />
 </head>
 
 <body class="">
-    <div class="wrapper w-100">
+    <div class="container w-100 py-5 my-5 lg:py-0 lg:my-0">
 
-        <p class="fullname text-light text-center mt-5 mt-lg-0"> <a class="" href="../index.html">consolidated software solutions</a></p>
- 
+        <!-- Using Bootstrap for responsiveness -->
+        <h1 class="fullname display-6 d-none d-sm-block text-light text-center"><a href="../index.html">consolidate
+                software solutions</a></h1>
+        <h1 class="fullname d-sm-none text-light text-center pt-5 mt-5 lg:pt-0 lg:mt-0"><a
+                href="../index.html">consolidated software solutions</a>
+        </h1>
+
+
         <div class="profile container border border-light">
             <div class="overlay d-flex justify-content-center align-items-center flex-column py-3">
 
 
                 <div class="d-block d-lg-flex ">
                     <div class="text-center">
-                        <img src="./certificate.png" class="w-200px sm:w-100px" alt="Company Logo">
+                        <img src="./certificate.png" class="w-100px sm:w-100px" alt="Company Logo">
                     </div>
-                    
-                
+
+
                     <div class="px-0 px-lg-3">
-                        <h5 class="text-light text-lg text-center font-bold text-decoration-underline">About our company</h5>
-                
+                        <h5 class="text-light text-lg text-center font-bold text-decoration-underline">About our company
+                        </h5>
+
                         <p class="text-light text-sm lg:text-xl">Consolidated Software Solutions is a leading provider
                             of innovative IT solutions, specializing in
                             software development, web development, mobile app development, IT consulting, and digital
@@ -44,7 +51,10 @@
                             Since our founding in 2005, we have been committed to empowering businesses through
                             cutting-edge
                             technology and tailored solutions that drive growth and success.</p>
-                
+
+
+                        <hr class="p-1 my-2 visually-hidden opacity-0">
+
                         <p class="text-light text-sm lg:text-xl">Our mission is to deliver excellence in every project
                             we undertake, leveraging the latest
                             technologies and best practices to exceed our clients' expectations. With a team of
@@ -53,7 +63,10 @@
                             based
                             on
                             trust, integrity, and mutual success.</p>
-                
+
+
+                        <hr class="p-1 my-2 visually-hidden opacity-0">
+
                         <p class="text-light text-sm lg:text-xl">At Consolidated Software Solutions, we believe in
                             continuous innovation, collaboration, and
                             agility
@@ -65,7 +78,7 @@
                             in the digital age.</p>
                     </div>
                 </div>
-                
+
 
 
             </div>
