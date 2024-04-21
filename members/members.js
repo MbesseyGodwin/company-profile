@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function() {
             <div class="col-12 m-0 p-0">
                 <div class="sm:flex">
                     <div class="p-0">
-                        <img src="${developer.image}" alt="" class="border border border-dark hidden sm:inline-block" style="width: 600px;">
+                        <img src="${developer.image}" alt="" class="border rounded border border-dark hidden sm:inline-block" style="width: 600px;">
                     </div>
                     <div class="ml-1">
                         <h1 class="form-control tracking-tight mb-1 text-xs lg:text-lg border border border-dark fw-bold text-capitalize">${developer.name}</h1>
