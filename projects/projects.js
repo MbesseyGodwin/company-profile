@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", function() {
     // Function to create accordion items
     function createAccordionItem(year, projects) {
         const accordionItem = document.createElement('div');
-        accordionItem.classList.add('w-100', 'mx-auto', 'border', 'border-dark', 'mx-2');
+        accordionItem.classList.add('w-100', 'mx-auto', 'border', 'border-dark');
 
         const accordionHeader = document.createElement('div');
         accordionHeader.classList.add('accordion-header', 'cursor-pointer', 'transition', 'flex', 'space-x-5', 'px-1', 'items-center', 'h-16');
@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", function() {
         const table = document.createElement('table');
         table.classList.add('table', 'table-bordered', 'table-primary');
         table.innerHTML = `
-            <thead>
+            <thead class="text-xs lg:text-lg capitalize">
                 <tr>
                     <th scope="col">Project</th>
                     <th scope="col">Started</th>
@@ -62,7 +62,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     <th scope="col">Link</th>
                 </tr>
             </thead>
-            <tbody class="capitalize">
+            <tbody class="text-xs lg:text-lg capitalize">
                 ${projects.map(project => `
                     <tr>
                         <td>${project.name}</td>
