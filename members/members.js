@@ -2,9 +2,8 @@ document.addEventListener("DOMContentLoaded", function() {
     const developersContainer = document.getElementById('developersContainer');
     const membersCount = document.getElementById('membersCount');
 
-
-membersCount.textContent=developersData.length;
-    
+    // Set members count
+    membersCount.textContent = developersData.length;
 
     // Function to create developer card
     function createDeveloperCard(developer) {
@@ -14,8 +13,8 @@ membersCount.textContent=developersData.length;
         const cardContent = `
             <div class="col-12 m-0 p-0">
                 <div class="sm:flex">
-                    <div class="p-0">
-                        <img src="${developer.image}" alt="" class="border rounded border border-dark hidden sm:inline-block" style="width: 600px;">
+                    <div class="p-0 img-container-member">
+                        <img src="${developer.image}" alt="PROFILE PICTURE" class="img-member border rounded border border-dark hidden sm:inline-block">
                     </div>
                     <div class="ml-1">
                         <h1 class="form-control tracking-tight mb-1 text-xs lg:text-lg border border border-dark fw-bold text-capitalize">${developer.name}</h1>

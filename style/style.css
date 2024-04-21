@@ -41,6 +41,16 @@ h1,
     letter-spacing: 3px;
 }
 
+.img-container-member {
+    width:  450px;
+}
+
+.img-member {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+  }
+
 /* .profile:hover .overlay {
     opacity: 1;
     background: url("../images/godwin.jpeg");
