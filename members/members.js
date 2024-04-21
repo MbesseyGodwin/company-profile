@@ -1,5 +1,10 @@
 document.addEventListener("DOMContentLoaded", function() {
     const developersContainer = document.getElementById('developersContainer');
+    const membersCount = document.getElementById('membersCount');
+
+
+membersCount.textContent=developersData.length;
+    
 
     // Function to create developer card
     function createDeveloperCard(developer) {
