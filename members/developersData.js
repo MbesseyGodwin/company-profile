@@ -11,6 +11,15 @@ const developersData = [
         image: "./images/ezeobi.png",
         description: "Onyedikachi Ezeobi is a backend developer with proficiency in Python programming language and SQL databases like MySQL and PostgreSQL. My role involves creating server-side logic, designing APIs for communication between the frontend and databases, and modeling databases to suit project requirements. Additionally, I optimize backend systems for scalability and performance, prioritize security measures, and ensure efficient testing and documentation practices."
     },
+
+    {
+        name: "Thelma Abba - Product Manager",
+        image: "./images/thelma.jpeg",
+        description: "Thelma Abba is a seasoned Product Manager with a wealth of experience in the technology industry. Thelma excels in guiding product development from conception to launch. She is skilled in stakeholder management and product strategy, ensuring that projects are delivered on time and within budget. Thelma is known for her strong leadership skills, ability to collaborate cross-functionally, and drive to deliver high-quality products that meet and exceed customer expectations."
+    },
+
+
+
     {
         name: "Amos Edidong - Backend",
         image: "./images/nelson.jpg",
