@@ -8,8 +8,8 @@ const developersData = [
     // Add more developer objects as needed
     {
         name: "Onyedikachi Ezeobi - Backend",
-        image: "./images/nelson.jpg",
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat quos in accusamus deleniti voluptatibus quo velit similique tempore nihil, iure facere ducimus, doloribus, cupiditate minima dolor culpa eum quis. Atque. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat quos in accusamus deleniti voluptatibus quo velit similique tempore nihil, iure facere ducimus, doloribus, cupiditate minima dolor culpa eum quis. Atque."
+        image: "./images/ezeobi.png",
+        description: "Onyedikachi Ezeobi is a backend developer with proficiency in Python programming language and SQL databases like MySQL and PostgreSQL. My role involves creating server-side logic, designing APIs for communication between the frontend and databases, and modeling databases to suit project requirements. Additionally, I optimize backend systems for scalability and performance, prioritize security measures, and ensure efficient testing and documentation practices."
     },
     {
         name: "Amos Edidong - Backend",
