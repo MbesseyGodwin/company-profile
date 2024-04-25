@@ -18,12 +18,10 @@ const developersData = [
         description: "Thelma Abba is a seasoned Product Manager with a wealth of experience in the technology industry. Thelma excels in guiding product development from conception to launch. She is skilled in stakeholder management and product strategy, ensuring that projects are delivered on time and within budget. Thelma is known for her strong leadership skills, ability to collaborate cross-functionally, and drive to deliver high-quality products that meet and exceed customer expectations."
     },
 
-
-
     {
-        name: "Amos Edidong - Backend",
-        image: "./images/nelson.jpg",
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat quos in accusamus deleniti voluptatibus quo velit similique tempore nihil, iure facere ducimus, doloribus, cupiditate minima dolor culpa eum quis. Atque. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat quos in accusamus deleniti voluptatibus quo velit similique tempore nihil, iure facere ducimus, doloribus, cupiditate minima dolor culpa eum quis. Atque."
+        name: "Amos Emediong - Backend",
+        image: "./images/amos.png",
+        description: "Amos Emediong brings his expertise in backend development to the team, specializing in building robust and scalable applications using Node.js. With a passion for creating efficient server-side solutions, Amos is instrumental in crafting the core functionalities that power our applications. His key skills are Node.js development, APIs and microservices architecture, Database integration as well as Building and maintaining scalable backend systems."
     },
     {
         name: "Auston Uoc - Frontend",
